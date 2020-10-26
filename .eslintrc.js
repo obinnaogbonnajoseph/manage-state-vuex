@@ -5,6 +5,10 @@ module.exports = {
     '@vue/airbnb'
   ],
   rules: {
-    "linebreak-style": 0
+    "linebreak-style": 0,
+    "quotes": 0,
+    "comma-dangle": 0,
+    "no-param-reassign": 0,
+    "no-console": 0,
   }
 }
