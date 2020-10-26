@@ -1,6 +1,11 @@
+import { mapActions } from 'vuex';
+
 export default {
     created() {
-        this.$store.dispatch('getParts');
+        this.getParts();
+    },
+    methods: {
+        ...mapActions('robots', ['getParts'])
     },
     computed: {
         parts() {
