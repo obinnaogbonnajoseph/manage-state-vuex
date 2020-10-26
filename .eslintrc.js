@@ -11,5 +11,6 @@ module.exports = {
     "no-param-reassign": 0,
     "no-console": 0,
     "indent": 0,
+    "function-paren-newLine": 0
   }
 }
